@@ -409,7 +409,7 @@ def test_email():
     msg = Message(
         subject="Hello from Flask-Mail",
         sender=app.config.get("MAIL_USERNAME"),
-        recipients=["Khaledw0097@gmail.com"],
+        recipients=["Test@gmail.com"],
         body="This is a test email!"
     )
     try:
