@@ -6,7 +6,7 @@ services:
     container_name: postgres-db
     environment:
       POSTGRES_USER: user
-      POSTGRES_PASSWORD: 123
+      POSTGRES_PASSWORD: 123 #Change if needed
       POSTGRES_DB: task_management_db  #database name
     ports:
       - "5432:5432"  # PostgreSQL default port
